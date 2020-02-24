@@ -1,0 +1,140 @@
+body{
+    background-image: url(img/fond.png);
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+.contener{
+    text-align: center;
+    width: 1100px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+/* ---------------------------------------------------------- */
+.navigation{
+    background-color: rgb(52, 177, 178);
+    border-top: rgb(43, 154, 160) solid 5px;
+    border-bottom: rgb(43, 154, 160) solid 5px;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 100px;
+ 
+}
+
+
+.navigation a{
+    /* display: inline-block; */
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin:10px;
+}
+
+/* ---------------------------------------------------------- */
+.welcome{
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome h1{
+    font-family: 'Slabo 27px', serif;
+    font-size: 2.5em;
+}
+/* ---------------------------------------------------------- */
+ 
+.section h2{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 3.5em;
+}
+.contener .section1 h2 span{
+    color:rgb(52, 177, 178);
+}
+.section1 .fa{
+    
+    margin-right: 15px;
+    margin-left: 15px;
+}
+a .fa{
+    background-color: rgb(43, 154, 160);
+    color: white;
+}
+.section1 a{
+    background-color: rgb(43, 154, 160);
+    float: right;
+    color: white;
+    margin: 40px;
+    font-family: 'Slabo 27px', serif;
+    text-decoration: none;
+}
+
+.article{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 45%;
+    display: inline-block;
+
+}
+div{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section2 h4{
+    font-size: 1.4em;
+    font-family: 'Slabo 27px', serif;
+    color: rgb(182, 222, 220);
+}
+.section1{
+    width: 70%;
+    display: inline-table;
+    background-color:  rgb(182, 222, 220);
+    padding-left: 70px;
+}s
+a .fa{
+    color: white
+}
+.section1 img{
+    float: left;
+    border-radius: 50%;
+}
+.section1 h3{
+    color: rgb(43, 154, 160); 
+    padding-right: 18px;
+    padding-left: 18px;
+    font-family: 'Slabo 27px', serif;
+}
+.section1 h2{
+    font-family: 'Slabo 27px', serif;
+    font-size: 3.5em;
+}
+.section2{
+    height: 625px;
+    width: 30%;
+    border: 6px solid rgb(43, 154, 160);
+    background-color: rgb(52, 177, 178);
+    margin-left: 15px;
+}
+.section2 img{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 76px;
+
+}
+.section2 .fa{
+    color: rgb(182, 222, 220);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+}
+.image{
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -53px;
+    margin-left: -30px;
+}

@@ -1,0 +1,50 @@
+@font-face{
+    font-family: blacksword;
+    src:url(fonts/Blacksword.otf)
+}
+
+@font-face{
+    font-family: cardob;
+    src: url(fonts/cardo/cardo-bold.woff);
+}
+
+@font-face{
+    font-family: cardoi;
+    src: url(fonts/cardoi/cardo-italic.woff);
+}
+
+@font-face{
+    font-family: cardo;
+    src: url(fonts/cardo/cardo-regular.woff);
+}
+
+h1,h2,h3{
+    font-family: blacksword;
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 2.5em;
+    word-spacing: 25px;
+}
+h3{
+    font-size: 1.5em;
+    word-spacing: 10px;
+}
+body{
+    text-align: center;
+    width: 50%;
+    max-width:800px ;
+    margin: auto;
+}
+img{
+    width: 500px;
+}
+.paraitalique{
+    font-family: cardo;
+    font-style: italic;
+}
+.p-right{
+    text-align: right;
+}

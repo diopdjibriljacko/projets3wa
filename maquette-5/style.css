@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.navigation {
+    background-image: url(img/fond.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+nav p{
+    color: rgb(85, 96, 102);
+}
+nav .section1 h2{
+    color: rgb(85, 96, 102);
+}
+nav .section2 h2{
+    color: rgb(85, 96, 102);
+}
+
+header a {
+    display: inline-block;
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin: 15px;
+    color: white;
+    margin-top: 23px;
+    margin-bottom: 113px;
+    text-decoration: blink;
+}
+.offre{
+    margin-top: -65px;
+    margin-bottom: 90px;
+}
+h2, h1  {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+}
+
+
+.section1 img{
+    float: left;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+.section2 img{
+    float: right;
+}
+a .fa{
+    float: right;   
+    margin-top: -20px;
+    margin-left: -54px;
+}
+article {
+    background-color: rgb(141, 111, 209);
+    display: inline-block;
+}
+article .box
+{
+   
+    width: 30%;
+    display: inline-block;
+}
+footer{
+    background-color: rgb(141, 111, 209);
+}
+footer img{
+    margin-top: 6px;
+}
+
+

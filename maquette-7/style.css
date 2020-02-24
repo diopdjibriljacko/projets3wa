@@ -1,0 +1,85 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.nav{
+    border-bottom: 2px solid rgb(44, 188, 214);
+    position: relative;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+}
+div img{
+    float: left;
+}
+.ceci{
+    margin-left: 15px;
+}
+.sous-cat{
+    border: 2px solid rgb(151, 151, 151);
+    background-color: rgb(44, 188, 214);
+    position: absolute;
+    width: 96%;
+    left: 0;
+    top: 40px;
+     display: none; 
+     color: white;
+    padding: 40px;
+}
+.cat-title a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+
+}
+.sous-cat > div{
+    float: left;
+    margin-right: 20%;
+}
+
+.sous-cat li{
+    display: block;
+}
+.sous-cat div{
+    display: inline-block;
+}
+.categorie:hover .sous-cat{
+    display: block;
+    color: rgb(156, 102, 14);
+}
+.paragraphe{
+display: inline-block;
+color: rgb(44, 188, 214);
+}
+.paragraphe1{
+    color: rgb(44, 188, 214);
+}
+h2{
+    font-size: 4em;
+    font-family: cursive;
+}
+p{
+    font-size: 1em;
+    font-family: sans-serif;
+}
+.categorie{
+    color: rgb(44, 188, 214);
+    padding: 10px ;
+}
+.categorie:hover{
+   background-color:rgb(44, 188, 214);
+   color:white;
+}
+.categorie a{
+    border-bottom: 2px solid rgb(44, 188, 214);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(44, 188, 214);
+    padding-top: 10px;
+}

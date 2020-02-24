@@ -1,0 +1,90 @@
+@font-face{
+    font-family: Oswald;
+    src: url(img/OSWALD.otf);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+section{
+    padding: 15px;
+}
+
+.container{
+      /* border:1px solid red; */
+      width:80%;
+      margin:0 auto;
+}
+
+nav{
+    background-color:#B8CB21;
+    /* height: 124px; */
+    font-family: Oswald;
+}
+nav ul{
+    margin-top: 50px;
+    list-style: none;
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    color:rgb(27, 25, 25);
+}
+article{
+    background-color: white;
+}
+.jo{
+    float: left;
+    width:250px;
+    padding: 6px;
+}
+
+h2{
+    font-family: Oswald;
+    src:url(img/OSWALD.otf);
+    margin-top: 0px;
+    color: #B8CB21;
+}
+
+.dd{
+    float:left;
+}
+body{
+    background-image:url(img/fond.png) ;
+    /* font-size: 1.3em; */
+}
+.ab{
+    float: right;
+    text-decoration:none ;
+    background-color: #B8CB21;
+    padding: 15px;
+    color: white;
+}
+.bo{
+    padding: 14px;
+}
+footer{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.id{
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    width: 38x;
+    height: 46px;
+}
+.td{
+  text-align: center;
+}
+
+li{
+    margin-right: 20px;
+}
